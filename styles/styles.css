@@ -45,9 +45,12 @@ header section h1 {
 }
 .offer p {
   color: #f00;
-  font-size: 30px;
-  font-weight: 600;
-  margin-bottom: 38px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 .offer h2 {
   color: #070211;
@@ -91,3 +94,108 @@ header section h1 {
   font-weight: 400;
   line-height: 30px;
 }
+.midnight-pirty .content a {
+  margin-left: 32px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.midnight-pirty a:hover {
+  color: rgb(255, 125, 45);
+}
+.venue {
+  text-align: center;
+  margin-top: 120px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  padding: 100px 0px 180px;
+  border-radius: 16px;
+}
+.venue p {
+  color: #070211;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.venue span {
+  color: #f00;
+}
+
+.venue button {
+  margin-top: 48px;
+  border-radius: 8px;
+  background: #f00;
+  padding: 16px 32px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+}
+.best-offer {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 55px;
+}
+.best-offer .first-content {
+  width: 32%;
+}
+.best-offer .first-content h2 {
+  margin-top: 16px;
+  margin-bottom: 22px;
+}
+.best-offer .second-content {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  width: 32%;
+}
+.best-offer .second-content img {
+  border: 15px solid #f00;
+  border-radius: 50%;
+  padding: 22px;
+  width: 80%;
+}
+.best-offer .third-content {
+  padding-left: 30px;
+  width: 32%;
+}
+.best-offer .third-content h2 {
+  color: #f00;
+  font-size: 48px;
+  font-weight: 700;
+}
+.best-offer .third-content p {
+  margin-top: 16px;
+  margin-bottom: 43px;
+}
+.best-offer .third-content img {
+  width: 35%;
+  aspect-ratio: 1 / 1;
+}
+.h-secondry {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+}
+.h-primary {
+  color: #070211;
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.p-primary {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; 
